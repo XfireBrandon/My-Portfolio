@@ -3,6 +3,7 @@ import About from "./components/Sections/About";
 import NavBar from "./components/NavBarComponents/NavBar"
 import Projects from "./components/Sections/Projects";
 import Contact from "./components/Sections/Contact";
+import ParticlesBg from 'particles-bg'
 
 import { useRef } from "react";
 import './CSS/styles.css'
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+    <ParticlesBg color='#FFBF00' type="cobweb" bg={true} num={250}/>
     </div>
     </>
   );

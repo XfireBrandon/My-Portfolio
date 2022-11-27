@@ -1,14 +1,33 @@
+*{
+    --offBlack: #252323;
+    --highLight: #FFBF00;
+    --lowLight: #A69CAC;
+    --offWhite: #E9E9E9;
+}
+
+
+.particles-bg-canvas-self{
+    background: var(--offBlack);
+    
+  }
+
+  .nav {
+      color: var(--lowLight);
+  }
+
+  .Header {
+      color: var(--lowLight);
+  }
+
+
 .contact {
-    height: 600px;
-    background-color: green;
+    color: var(--lowLight);
 }
 
 .about {
-    height: 600px;
-    background-color: green;
+    color: var(--lowLight);
 }
 
 .projects {
-    height: 600px;
-    background-color: green;
+    color: var(--lowLight);
 }
