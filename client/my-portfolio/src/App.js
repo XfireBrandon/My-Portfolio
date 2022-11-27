@@ -9,26 +9,16 @@ import './CSS/styles.css'
 
 function App() {
 
-  // const About = useRef(null)
-  // const Projects = useRef(null)
-  // const Contact = useRef(null)
-
-  // const scrollTo = (elementRef) => {
-  //   window.scrollTo({
-  //     top: elementRef.current.offsetTop,
-  //     behavior: 'smooth'
-  //   })
-  // }
 
   return (
     <>
     <div className="HeaderDiv">
       <Header />
       <NavBar />
-    </div>
       <About />
       <Projects />
       <Contact />
+    </div>
     </>
   );
 }

@@ -1,3 +1,5 @@
+import { Link } from "react-scroll"
+
 const NavBar = () => {
     return (
         <nav className="nav" id="navbar">
