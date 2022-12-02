@@ -22,12 +22,15 @@
 
 .contact {
     color: var(--lowLight);
+    height: 600px;
 }
 
 .about {
     color: var(--lowLight);
+    height: 600px;
 }
 
 .projects {
     color: var(--lowLight);
+    height: 600px;
 }
