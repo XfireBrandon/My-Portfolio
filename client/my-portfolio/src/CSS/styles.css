@@ -5,6 +5,7 @@
     --highLight: #FFBF00;
     --lowLight: #A69CAC;
     --offWhite: #E9E9E9;
+    background-color: var(--lowLight);
 }
 
 
@@ -33,7 +34,7 @@
 }
 
 #HeaderDiv {
-      color: var(--offBlack);
+      color: var(--offWhite);
       display: flex;
       justify-content: end;
       background-color: var(--lowLight);
@@ -43,26 +44,26 @@
 
 
 #skills {
-    color: var(--lowLight);
+    color: var(--offWhite);
     height: 900px;
     padding-top: 5.5rem;
 }
 
 
 #contact {
-    color: var(--lowLight);
+    color: var(--offWhite);
     height: 300px;
     padding-top: 5.5rem;
 }
 
 #about {
-    color: var(--lowLight);
+    color: var(--offWhite);
     height: 900px;
     padding-top: 5.5rem;
 }
 
 #projects {
-    color: var(--lowLight);
+    color: var(--offWhite);
     height: 900px;
     padding-top: 5.5rem;
 }
