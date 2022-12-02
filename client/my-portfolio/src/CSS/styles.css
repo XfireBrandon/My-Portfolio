@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     --offBlack: #252323;
     --highLight: #FFBF00;
     --lowLight: #A69CAC;
@@ -6,31 +8,66 @@
 }
 
 
-.particles-bg-canvas-self{
-    background: var(--offBlack);
-    
-  }
-
-  .nav {
-      color: var(--lowLight);
-  }
-
-  .Header {
+.nav {
       color: var(--lowLight);
   }
 
 
-.contact {
-    color: var(--lowLight);
-    height: 600px;
+.headerClicks {
+      /* padding-right: 1rem; */
+      margin-right: 2rem;
+      margin-top: 1.2rem;
+      margin-bottom: 1.5rem;
+
+  }
+
+.headerClicks:hover {
+    cursor: pointer;
 }
 
-.about {
-    color: var(--lowLight);
-    height: 600px;
+
+.section {
+    display: flex;
+    justify-content: end;
+    padding-right: 4rem;
 }
 
-.projects {
+#HeaderDiv {
+      color: var(--offBlack);
+      display: flex;
+      justify-content: end;
+      background-color: var(--lowLight);
+      position: fixed;
+      width: 100%;
+  }
+
+
+#skills {
     color: var(--lowLight);
-    height: 600px;
+    height: 900px;
+    padding-top: 5.5rem;
+}
+
+
+#contact {
+    color: var(--lowLight);
+    height: 300px;
+    padding-top: 5.5rem;
+}
+
+#about {
+    color: var(--lowLight);
+    height: 900px;
+    padding-top: 5.5rem;
+}
+
+#projects {
+    color: var(--lowLight);
+    height: 900px;
+    padding-top: 5.5rem;
+}
+
+.homeBTN {
+    position: fixed;
+
 }
