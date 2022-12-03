@@ -39,7 +39,7 @@ function App() {
   return (
     <>
     <div id="HeaderDiv" ref={home}>
-      <h2 onClick={aboutClick} className="headerClicks">About</h2>
+      <h2 onClick={aboutClick} className="headerClicks">Home</h2>
       <h2 onClick={skillClick} className="headerClicks">Skills</h2>
       <h2 onClick={projectClick} className="headerClicks">Projects</h2>
       <h2 onClick={contactClick} className="headerClicks">Contact</h2>
