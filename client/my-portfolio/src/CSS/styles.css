@@ -85,6 +85,7 @@
 .Name {
     font-size: 2rem;
     background-color: transparent;
+    color: var(--offBlack);
 }
 
 
@@ -118,5 +119,15 @@
     margin-top: 2rem;
     display: flex;
     justify-content: space-evenly;
-    font-size: 2rem;
+    font-size: 3.5rem;
+}
+
+a:visited { text-decoration: none; color: var(--offBlack); }
+a:hover { text-decoration: none; color: var(--offBlack); }
+a:focus { text-decoration: none; color: var(--offBlack); }
+a:hover, a:active { text-decoration: none;
+                    color: var(--highLight);
+                    transform: scale(1.2);
+                    transition: ease .5s;
+    
 }
