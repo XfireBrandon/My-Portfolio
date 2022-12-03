@@ -1,9 +1,6 @@
-// import Header from "./components/HeaderComponets/Header";
-import About from "./components/Sections/About";
-// import NavBar from "./components/NavBarComponents/NavBar"
+import Home from "./components/Sections/Home";
 import Projects from "./components/Sections/Projects";
 import Contact from "./components/Sections/Contact";
-// import ParticlesBg from 'particles-bg'
 
 import { useEffect, useRef, useState } from "react";
 import './CSS/styles.css'
@@ -51,7 +48,7 @@ function App() {
       <h2 onClick={contactClick} className="headerClicks">Contact</h2>
     </div>
       <div ref={about}>
-        <About />
+        <Home />
       </div>
       <div ref={skills}>
         <Skills />

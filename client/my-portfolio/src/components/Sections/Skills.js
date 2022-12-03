@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import TextTransition, { presets } from "react-text-transition";
 
+
 const Skills = () => {
 
     const TEXTS = [
