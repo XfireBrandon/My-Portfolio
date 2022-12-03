@@ -54,6 +54,15 @@
     padding-top: 5.5rem;
 }
 
+.skillChange {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5rem;
+    margin-top: 5rem;
+    font-size: 4rem;
+}
+
 
 #contact {
     color: var(--offBlack);

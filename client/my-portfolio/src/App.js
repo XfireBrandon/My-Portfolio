@@ -5,9 +5,13 @@ import Projects from "./components/Sections/Projects";
 import Contact from "./components/Sections/Contact";
 // import ParticlesBg from 'particles-bg'
 
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import './CSS/styles.css'
 import Skills from "./components/Sections/Skills";
+
+
+
+
 
 function App() {
 
@@ -34,6 +38,8 @@ function App() {
     skills.current?.scrollIntoView({behavior: 'smooth'});
   };
 
+
+
   
   
   return (
@@ -49,6 +55,7 @@ function App() {
       </div>
       <div ref={skills}>
         <Skills />
+
       </div>
       <div ref={projects}>
         <Projects />

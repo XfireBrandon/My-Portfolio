@@ -1,8 +1,18 @@
 // import Scroll from 'react-scroll'
 import MyPhoto from '../../Img/MyPhoto.jpeg'
 import MovingText from 'react-moving-text'
+import { useEffect, useState } from 'react'
+
+
+
+  
 
 const About = () => {
+
+
+
+
+
     return (
         <div id='about'>
             {/* <h1 className="section">About Me</h1> */}
