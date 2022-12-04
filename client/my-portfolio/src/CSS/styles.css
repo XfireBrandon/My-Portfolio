@@ -31,6 +31,22 @@
     padding-right: 4rem;
 }
 
+#About {
+    padding-top: 3rem;
+    padding-right: 4rem;
+    width: 600px;
+    text-align: end;
+}
+
+.aboutMe {
+    padding: .8rem;
+    text-align: center;
+}
+
+#aboutMe {
+    padding-right: 4rem;
+}
+
 #pic {
     height: 400px;
     border-radius: 800px;
@@ -50,17 +66,21 @@
 
 #skills {
     color: var(--offBlack);
-    height: 900px;
+    height: 700px;
     padding-top: 5.5rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .skillChange {
     display: flex;
     justify-content: center;
-    text-align: center;
-    padding-top: 5rem;
-    margin-top: 5rem;
+    /* text-align: center; */
+    /* padding-top: 5rem; */
+    padding-left: 5rem;
+    /* margin-top: 5rem; */
     font-size: 4rem;
+    height: 5rem;
 }
 
 

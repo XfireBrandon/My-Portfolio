@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import TextTransition, { presets } from "react-text-transition";
+import About from "./About";
 
 
 const Skills = () => {
@@ -26,7 +27,8 @@ const Skills = () => {
         'Critical Thinking',
         'Teamwork',
         'Collaboration',
-        'Git Workflow'
+        'Git Workflow',
+        'npm'
       ];
 
 
@@ -36,19 +38,20 @@ const Skills = () => {
     useEffect(() => {
         const intervalId = setInterval(() =>
         setIndex(index => index + 1),
-        1500 // every 3 seconds
+        1500 
       );
       return () => clearTimeout(intervalId)
     }, [])
 
     return (
         <div id="skills">
-            <h1 className="section">Skills</h1>
+            {/* <h1 className="section">Skills</h1> */}
             <div className="skillChange">
              <TextTransition springConfig={presets.wobbly}>
                 {TEXTS[index % TEXTS.length]}
              </TextTransition>
             </div>
+            <About />
         </div>
 
     )
