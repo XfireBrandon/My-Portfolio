@@ -9,14 +9,6 @@ import { BsLinkedin, BsGithub } from 'react-icons/bs'
 
 const Home = () => {
 
-    const handleClick = (e) => {
-        e.preventDefault()
-    }
-    
-
-
-
-
 
     return (
         <div id='Home'>

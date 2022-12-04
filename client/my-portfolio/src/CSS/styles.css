@@ -8,8 +8,29 @@
     background-color: var(--offWhite);
 }
 
+:root {
+    --swiper-theme-color: var(--highLight);
+}
 
+.swiper-button-next {
+    background-color: transparent;
+  }
 
+.swiper-button-next:hover {
+    transform: scale(1.2);
+    transition: ease .4s;
+    color: var(--offBlack);
+}
+
+.swiper-button-prev {
+    background-color: transparent;
+}
+
+.swiper-button-prev:hover {
+    transform: scale(1.2);
+    transition: ease .4s;
+    color: var(--offBlack);
+}
 
 
 .headerClicks {
@@ -41,10 +62,11 @@
 .aboutMe {
     padding: .8rem;
     text-align: center;
+    margin-right: 4rem;
 }
 
 #aboutMe {
-    padding-right: 4rem;
+    padding-right: 8rem;
 }
 
 #pic {
@@ -76,6 +98,7 @@
     display: flex;
     justify-content: center;
     /* text-align: center; */
+    
     /* padding-top: 5rem; */
     padding-left: 5rem;
     /* margin-top: 5rem; */
@@ -126,7 +149,7 @@
 
 #projects {
     color: var(--offBlack);
-    height: 900px;
+    /* height: 900px; */
     padding-top: 5.5rem;
 }
 
@@ -151,3 +174,43 @@ a:hover, a:active { text-decoration: none;
                     transition: ease .5s;
     
 }
+
+
+
+
+
+
+.swiper {
+    width: 900px;
+    height: 500px;
+    border: 2px solid var(--offBlack);
+    border-radius: 20px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    /* font-size: 18px; */
+    /* background: #fff; */
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
