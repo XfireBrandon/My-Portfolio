@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b1a787a7.css",
+    "main.js": "/static/js/main.45fe01ae.js",
+    "static/media/DCBAbout.png": "/static/media/DCBAbout.7da48cc470c3cc8faf32.png",
+    "static/media/DCB2.png": "/static/media/DCB2.f613155b61dab1e8f10b.png",
+    "static/media/DCB.png": "/static/media/DCB.443e0c3d6ec05e4a8347.png",
+    "static/media/DCBContact.png": "/static/media/DCBContact.ec50c630549b0b0f0e5c.png",
+    "static/media/Athena.png": "/static/media/Athena.d7cbcc5e5746a4f40ab9.png",
+    "static/media/MyPhoto.jpeg": "/static/media/MyPhoto.6a9d30aa5e394c298f26.jpeg",
+    "static/media/AthenaCreate.png": "/static/media/AthenaCreate.df0cab7ffd32fd3b588b.png",
+    "static/media/logo-transparent-png.png": "/static/media/logo-transparent-png.ec0381a78e01eba8dbb6.png",
+    "static/media/Athena2.png": "/static/media/Athena2.4acb43835f611c6d7330.png",
+    "static/media/AthenaLogin.png": "/static/media/AthenaLogin.d6ca73519c1e8153144c.png",
+    "static/media/ResumeLink.png": "/static/media/ResumeLink.a0f2de67b1903630a4aa.png",
+    "static/media/IMG_9057.jpeg": "/static/media/IMG_9057.c194626c8cbf76bd1d1f.jpeg",
+    "index.html": "/index.html",
+    "main.b1a787a7.css.map": "/static/css/main.b1a787a7.css.map",
+    "main.45fe01ae.js.map": "/static/js/main.45fe01ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1a787a7.css",
+    "static/js/main.45fe01ae.js"
+  ]
+}
