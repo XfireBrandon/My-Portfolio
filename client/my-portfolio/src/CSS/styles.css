@@ -83,6 +83,7 @@
       background-color: rgba(255,255,255,0.1);
       position: fixed;
       width: 100%;
+      z-index: 100000;
   }
 
 
@@ -151,6 +152,62 @@
     color: var(--offBlack);
     /* height: 900px; */
     padding-top: 5.5rem;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+@keyframes floating2 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 25px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.dcbPic {
+    height: 170px;
+    width: 360px;
+    border: 3px solid var(--offBlack);
+    border-radius: 20px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.dcbPic2 {
+    height: 170px;
+    width: 360px;
+    border: 2px solid var(--offBlack);
+    border-radius: 20px;
+    animation-name: floating2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.projectSection {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 3rem;
+    margin: 1rem;
+    padding-bottom: 6rem;
+}
+
+.h2 {
+    font-size: 1.7rem;
+}
+
+.projectDiv {
+    padding-top: 2rem;
+}
+
+.projectP {
+    width: 500px;
+    padding: .7rem;
 }
 
 .homeBTN {
