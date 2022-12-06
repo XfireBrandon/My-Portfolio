@@ -5,7 +5,7 @@ import Contact from "./components/Sections/Contact";
 import { useEffect, useRef, useState } from "react";
 import './CSS/styles.css'
 import Skills from "./components/Sections/Skills";
-import logo from "./Img/logo-png.png"
+import logo from "./Img/IMG_9057.jpeg"
 import logo2 from "./Img/logo-transparent-png.png"
 
 

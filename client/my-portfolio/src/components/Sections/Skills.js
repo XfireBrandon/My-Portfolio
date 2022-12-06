@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import TextTransition, { presets } from "react-text-transition";
 import About from "./About";
-
+import resume from "../../Img/ResumeLink.png"
 
 const Skills = () => {
 
@@ -50,6 +50,7 @@ const Skills = () => {
              <TextTransition springConfig={presets.wobbly}>
                 {TEXTS[index % TEXTS.length]}
              </TextTransition>
+             <img src={resume} id="star"/>
             </div>
             <About />
         </div>
