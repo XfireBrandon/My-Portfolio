@@ -12,7 +12,7 @@ import Athena2 from '../../Img/Athena2.png'
 const Projects = () => {
     return (
         <div id="projects">
-            <h1 className="section">My Projects</h1>
+            <h1 className="sectionProject">My Projects</h1>
                 <div className="projectSection">
                     <img src={DCB2} className='dcbPic' />
                     <div className="projectDiv">
