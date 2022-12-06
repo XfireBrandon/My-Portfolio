@@ -8,7 +8,7 @@
     background-color: var(--offWhite);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Signika+Negative:wght@500&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Carter+One&family=Signika+Negative:wght@500&family=Zilla+Slab&display=swap');
 
 :root {
     --swiper-theme-color: var(--highLight);
@@ -42,14 +42,17 @@
       margin-bottom: 1.5rem;
       background-color: transparent;
       font-family: 'Signika Negative', sans-serif;
-      transition: ease .3s;
+      transition: ease .5s;
+      font-size: 1.7rem;;
   }
 
 .headerClicks:hover {
     cursor: pointer;
     color: var(--highLight);
     margin-top: 10px;
+    text-decoration: underline;
 }
+
 
 
 .section {
@@ -84,11 +87,13 @@
     text-align: center;
     margin-right: 4rem;
     font-family: 'Zilla Slab', serif;
+    font-size: 1.12rem;
 }
 
 #aboutMe {
     padding-right: 8rem;
     font-family: 'Signika Negative', sans-serif;
+    font-size: 2.5rem;
 }
 
 #pic {
@@ -127,11 +132,12 @@
     /* margin-top: 5rem; */
     font-size: 3.5rem;
     height: 5rem;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Carter One', cursive;
 }
 
 .pTag {
     font-family: 'Zilla Slab', serif;
+    font-size: 1.2rem;
 }
 
 
@@ -158,6 +164,7 @@
     background-color: transparent;
     color: var(--offBlack);
     font-family: 'Signika Negative', sans-serif;
+    margin-bottom: .5rem;
 }
 
 
@@ -170,6 +177,7 @@
     margin: .5rem;
     padding-top: 1.5rem;
     font-family: 'Zilla Slab', serif;
+    font-size: 1.5rem;
 }
 
 .home-section {
@@ -198,12 +206,13 @@
 .dcbPic {
     height: 170px;
     width: 360px;
-    border: 3px solid var(--offBlack);
+    border: 2px solid var(--offBlack);
     border-radius: 20px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    box-shadow: 5px 6px 6px var(--offBlack);
 }
 
 .dcbPic2 {
@@ -215,6 +224,7 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    box-shadow: 5px 6px 6px var(--offBlack);
 }
 
 .projectSection {
@@ -239,6 +249,7 @@
     width: 500px;
     padding: .7rem;
     font-family: 'Zilla Slab', serif;
+    font-size: 1.1rem;
 }
 
 .homeBTN {
@@ -251,6 +262,7 @@
     display: flex;
     justify-content: space-evenly;
     font-size: 3.5rem;
+    
 }
 
 .contactDiv {
@@ -284,6 +296,7 @@ a:hover, a:active { text-decoration: none;
     height: 500px;
     border: 2px solid var(--offBlack);
     border-radius: 20px;
+    box-shadow: 5px 6px 6px var(--offBlack);
   }
   
   .swiper-slide {
