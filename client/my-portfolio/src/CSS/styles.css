@@ -84,19 +84,22 @@
     padding-left: 4rem;
     font-family: 'Signika Negative', sans-serif;
     font-size: 2.5rem;
+    text-decoration: underline var(--highLight);
 }
 
 .sectionContact {
     display: flex;
     justify-content: center;
     font-family: 'Signika Negative', sans-serif;
+    font-size: 2.5rem;
+    text-decoration: underline var(--offBlack);
 }
 
 
 #About {
     padding-top: 8rem;
     padding-right: 4rem;
-    width: 600px;
+    width: 700px;
     text-align: end;
 }
 
@@ -105,14 +108,16 @@
     text-align: center;
     margin-right: 4rem;
     font-family: 'Zilla Slab', serif;
-    font-size: 1.12rem;
+    font-size: 1.2rem;
 }
 
 #aboutMe {
     padding-right: 8rem;
     font-family: 'Signika Negative', sans-serif;
     font-size: 2.5rem;
+    text-decoration: underline var(--highLight);
 }
+
 
 #pic {
     height: 400px;
@@ -120,6 +125,7 @@
     border: 2px solid var(--offBlack);
     box-shadow: 8px 8px 7px var(--offBlack);
 }
+
 
 #HeaderDiv {
       color: var(--offWhite);
@@ -162,12 +168,12 @@
 
 .pTag {
     font-family: 'Zilla Slab', serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 
 #contact {
-    color: var(--offWhite);
+    color: var(--highLight);
     height: 300px;
     padding-top: 5.5rem;
 }
@@ -185,11 +191,11 @@
 }
 
 .Name {
-    font-size: 2rem;
+    font-size: 2.3rem;
     background-color: transparent;
     color: var(--offWhite);
     font-family: 'Signika Negative', sans-serif;
-    margin-bottom: .5rem;
+    margin-bottom: .7rem;
 }
 
 
@@ -202,7 +208,7 @@
     margin: .5rem;
     padding-top: 1.5rem;
     font-family: 'Zilla Slab', serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 .home-section {
@@ -264,17 +270,18 @@
 .h2 {
     font-size: 1.7rem;
     font-family: 'Signika Negative', sans-serif;
+    text-decoration: underline var(--highLight);
 }
 
 .projectDiv {
-    padding-top: 2rem;
+    padding-top: 8rem;
 }
 
 .projectP {
     width: 500px;
     padding: .7rem;
     font-family: 'Zilla Slab', serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .homeBTN {
@@ -301,8 +308,8 @@
 
 .contactP {
     font-family: 'Zilla Slab', serif;
-    font-size: 1.1rem;
-    width: 400px;
+    font-size: 1.4rem;
+    width: 450px;
     padding: 2rem;
     padding-top: 1rem;
 }
@@ -313,7 +320,7 @@
 }
 
 .contactLinks {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 
@@ -343,11 +350,12 @@ a:hover, a:active { text-decoration: none;
 
 
 .swiper {
-    width: 900px;
-    height: 500px;
+    width: 700px;
+    height: 400px;
     border: 2px solid var(--offBlack);
     border-radius: 20px;
     box-shadow: 5px 6px 6px var(--offBlack);
+    color: var(--highLight);
   }
   
   .swiper-slide {

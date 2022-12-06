@@ -6,7 +6,7 @@ import { SiGmail } from "react-icons/si"
 const Contact = () => {
     return (
         <div id="contact">
-            <h1 className="sectionContact">Contact</h1>
+            <h1 className="sectionContact">CONTACT ME</h1>
             <div className="contactDiv">
                 <div className="pDiv">
                 <p className="contactP">If you liked what you see here, send me an email or contact me on LinkedIn, I'm active on both 

@@ -2,7 +2,7 @@ const About = () => {
 
     return (
         <div id="About">
-            <h1 id='aboutMe'>About</h1>
+            <h1 id='aboutMe'>ABOUT</h1>
             <p className="aboutMe">Hello there, As you know me now, I'm a Software Engineer, I wasnt always one. Before this I was in the military for just over 9 years, crazy to see how fast that time went,
                 but thats neither here nor there. Early in 2022 I decided to take a big leap into where I want to be in the future and decided to transition out of the military to become a Software Engineer.
                  In July 2022, I started my attendance at Galvanzie, a Code Boot Camp where I worked on several projects, some you'll see below, this journey has so much fun so far and I'm so excited to see where I will go.</p>
