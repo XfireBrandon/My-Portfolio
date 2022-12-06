@@ -8,6 +8,8 @@
     background-color: var(--offWhite);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Signika+Negative:wght@500&family=Zilla+Slab&display=swap');
+
 :root {
     --swiper-theme-color: var(--highLight);
 }
@@ -39,6 +41,7 @@
       margin-top: 1.2rem;
       margin-bottom: 1.5rem;
       background-color: transparent;
+      font-family: 'Signika Negative', sans-serif;
   }
 
 .headerClicks:hover {
@@ -50,10 +53,11 @@
     display: flex;
     justify-content: end;
     padding-right: 4rem;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 #About {
-    padding-top: 3rem;
+    padding-top: 8rem;
     padding-right: 4rem;
     width: 600px;
     text-align: end;
@@ -63,10 +67,12 @@
     padding: .8rem;
     text-align: center;
     margin-right: 4rem;
+    font-family: 'Zilla Slab', serif;
 }
 
 #aboutMe {
     padding-right: 8rem;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 #pic {
@@ -103,8 +109,13 @@
     /* padding-top: 5rem; */
     padding-left: 5rem;
     /* margin-top: 5rem; */
-    font-size: 4rem;
+    font-size: 3.5rem;
     height: 5rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.pTag {
+    font-family: 'Zilla Slab', serif;
 }
 
 
@@ -130,6 +141,7 @@
     font-size: 2rem;
     background-color: transparent;
     color: var(--offBlack);
+    font-family: 'Signika Negative', sans-serif;
 }
 
 
@@ -141,6 +153,7 @@
 .hi {
     margin: .5rem;
     padding-top: 1.5rem;
+    font-family: 'Zilla Slab', serif;
 }
 
 .home-section {
@@ -199,6 +212,7 @@
 
 .h2 {
     font-size: 1.7rem;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 .projectDiv {
@@ -208,6 +222,7 @@
 .projectP {
     width: 500px;
     padding: .7rem;
+    font-family: 'Zilla Slab', serif;
 }
 
 .homeBTN {
