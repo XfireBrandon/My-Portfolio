@@ -5,6 +5,8 @@ import Contact from "./components/Sections/Contact";
 import { useEffect, useRef, useState } from "react";
 import './CSS/styles.css'
 import Skills from "./components/Sections/Skills";
+import logo from "./Img/logo-png.png"
+import logo2 from "./Img/logo-transparent-png.png"
 
 
 
@@ -42,6 +44,7 @@ function App() {
   return (
     <>
     <div id="HeaderDiv" ref={home}>
+      <img onClick={aboutClick} src={logo} id='logo' />
       <h2 onClick={aboutClick} className="headerClicks">Home</h2>
       <h2 onClick={skillClick} className="headerClicks">Skills</h2>
       <h2 onClick={projectClick} className="headerClicks">Projects</h2>

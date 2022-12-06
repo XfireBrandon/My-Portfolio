@@ -15,7 +15,7 @@ const Home = () => {
             {/* <h1 className="section">About Me</h1> */}
             <div className="home-section">
                 <div className='bio'>
-                    <h2 className='hi'>Hi, my name is</h2>
+                    <h2 className='hi'>Hi, I'm</h2>
                     <MovingText
                     className='Name'
                         type="bounce"

@@ -5,7 +5,8 @@
     --highLight: #FFBF00;
     --lowLight: #A69CAC;
     --offWhite: #E9E9E9;
-    background-color: var(--offWhite);
+    --grey: #72777F;
+    background-color: var(--grey);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Carter+One&family=Signika+Negative:wght@500&family=Zilla+Slab&display=swap');
@@ -34,6 +35,22 @@
     color: var(--offBlack);
 }
 
+#logo {
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    position:absolute;
+    left: 0;
+    margin: 1.2rem;
+    cursor: pointer;
+    border: none;
+    transition: ease .4s;
+}
+
+#logo:hover {
+    border: 2px solid var(--offWhite);
+    transform: scale(1.1); 
+}
 
 .headerClicks {
       /* padding-right: 1rem; */
@@ -104,10 +121,11 @@
 }
 
 #HeaderDiv {
-      color: var(--offBlack);
+      color: var(--offWhite);
       display: flex;
       justify-content: end;
       background-color: rgba(255,255,255,0.1);
+      background-color: var(--offBlack);
       position: fixed;
       width: 100%;
       z-index: 100000;
@@ -115,7 +133,7 @@
 
 
 #skills {
-    color: var(--offBlack);
+    color: var(--offWhite);
     height: 700px;
     padding-top: 5.5rem;
     display: flex;
@@ -142,13 +160,13 @@
 
 
 #contact {
-    color: var(--offBlack);
+    color: var(--offWhite);
     height: 300px;
     padding-top: 5.5rem;
 }
 
 #Home {
-    color: var(--offBlack);
+    color: var(--offWhite);
     height: 700px;
     padding-top: 7rem;
 }
@@ -162,7 +180,7 @@
 .Name {
     font-size: 2rem;
     background-color: transparent;
-    color: var(--offBlack);
+    color: var(--offWhite);
     font-family: 'Signika Negative', sans-serif;
     margin-bottom: .5rem;
 }
@@ -186,7 +204,7 @@
 }
 
 #projects {
-    color: var(--offBlack);
+    color: var(--offWhite);
     /* height: 900px; */
     padding-top: 5.5rem;
 }
@@ -266,13 +284,39 @@
 }
 
 .contactDiv {
-    display: inline;
-    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    /* width: 400px; */
+    
 }
 
-.emailLink {
-    font-size: 2rem;
+.contactP {
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.1rem;
+    width: 400px;
+    padding: 2rem;
+    padding-top: 1rem;
+}
+
+.pDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.contactLinks {
+    font-size: 2.5rem;
+}
+
+
+.Mail {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.Mail:hover {
+    transform: scale(1.5);
 }
 
 a:link{ text-decoration: none; color: var(--offBlack);}
