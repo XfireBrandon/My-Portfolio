@@ -20,12 +20,14 @@ const Projects = () => {
             <h1 className="sectionProject">PROJECTS</h1>
                 <div className="projectSection">
                     {/* <img src={DCB2} className='dcbPic' /> */}
+                    <div>
                     <Swiper navigation={true} modules={[Navigation]} className="dcbPic">
                         <SwiperSlide><img src={DCB} /></SwiperSlide>
                         <SwiperSlide><img src={DCB2} /></SwiperSlide>
                         <SwiperSlide><img src={DCBAbout} /></SwiperSlide>
                         <SwiperSlide><img src={DCBContact} /></SwiperSlide>
                     </Swiper>
+                    </div>
                     <div className="projectDiv">
                         <h2 className="h2">DREAMS COME BREW</h2>
                         <p className="projectP">A Full Stack Ecommerce Web Application created with a team skilled of Software Engineers.
@@ -43,12 +45,14 @@ const Projects = () => {
                         </p>
                     </div>
                     {/* <img src={Athena} className='dcbPic2' /> */}
+                    <div>
                     <Swiper navigation={true} modules={[Navigation]} className="dcbPic2">
                         <SwiperSlide><img src={AthenaLogin} /></SwiperSlide>
                         <SwiperSlide><img src={AthenaCreate} /></SwiperSlide>
                         <SwiperSlide><img src={Athena} /></SwiperSlide>
                         <SwiperSlide><img src={Athena2} /></SwiperSlide>
                     </Swiper>
+                    </div>
                 </div>
             
                 
