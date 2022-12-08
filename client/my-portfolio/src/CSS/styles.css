@@ -510,4 +510,16 @@ p {
         padding-top: 3rem;
     }
 
+    #contact {
+        width: 430px;
+    }
+
+    .sectionContact {
+        font-size: 1.7rem;
+    }
+
+    .contactLinks {
+        font-size: 2rem;
+    }
+
   }
