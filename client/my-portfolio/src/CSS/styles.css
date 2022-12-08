@@ -384,6 +384,8 @@ p {
 
 
   @media (max-width: 430px) {
+
+    
     p {
         font-size: .9rem;
         width: 350px;
@@ -423,6 +425,7 @@ p {
         padding-top: 0;
         margin-top: 0;
         height: 700px;
+        width: 430px;
     }
 
     .bio {
@@ -460,6 +463,9 @@ p {
     #About {
         padding-top: 5rem;
         /* margin-top: 1rem; */
+        width: 430px;
+        padding-right: 0;
+        margin-right: 0;
     }
 
     #star {
@@ -475,6 +481,7 @@ p {
         width: 400px;
         background: none;
         font-size: 1.8rem;
+        padding: 0;
     }
 
     .projectSection {
@@ -499,8 +506,10 @@ p {
         font-size: 1.8rem;
         padding-top: 5rem;
         text-align: start;
-        width: 430px;
-        padding-left: 2rem;
+        width: 300px;
+        margin-left: 1rem;
+        padding-left: 0;
+        margin-right: 0;
     }
 
     .h2 {
@@ -508,6 +517,7 @@ p {
     }
     .projectDiv {
         padding-top: 3rem;
+        width: 400px;
     }
 
     #contact {
@@ -516,6 +526,7 @@ p {
 
     .sectionContact {
         font-size: 1.7rem;
+        width: 430px;
     }
 
     .contactLinks {
