@@ -382,7 +382,7 @@ p {
 
 
 
-  @media (max-width: 390px) {
+  @media (max-width: 430px) {
     p {
         font-size: .5rem;
         width: 350px;;
@@ -395,7 +395,7 @@ p {
     }
 
     #HeaderDiv {
-        width: 390px;
+        width: 430px;
     }
 
     .headerClicks {
