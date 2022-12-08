@@ -495,4 +495,19 @@ p {
         width: 380px;
     }
 
+    .sectionProject {
+        font-size: 1.8rem;
+        padding-top: 5rem;
+        text-align: start;
+        width: 430px;
+        padding-left: 2rem;
+    }
+
+    .h2 {
+        font-size: 1.2rem;
+    }
+    .projectDiv {
+        padding-top: 3rem;
+    }
+
   }
