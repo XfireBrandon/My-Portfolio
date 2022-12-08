@@ -382,7 +382,7 @@ p {
 
 
 
-  @media (max-width: 414px) {
+  @media (max-width: 430px) {
     p {
         font-size: .8rem;
         width: 350px;;
@@ -392,11 +392,11 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 414px;
+        width: 430px;
     }
 
     #HeaderDiv {
-        width: 414px;
+        width: 430px;
     }
 
     .headerClicks {
