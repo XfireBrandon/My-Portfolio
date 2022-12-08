@@ -477,5 +477,22 @@ p {
         font-size: 1.8rem;
     }
 
+    .projectSection {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .dcbPic {
+        height: 200px;
+        width: 380px;
+    }   
+
+    .dcbPic2 {
+        height: 200px;
+        width: 380px;
+    }
 
   }
