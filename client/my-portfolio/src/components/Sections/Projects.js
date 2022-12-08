@@ -30,7 +30,7 @@ const Projects = () => {
                     </div>
                     <div className="projectDiv">
                         <h2 className="h2">DREAMS COME BREW</h2>
-                        <p className="projectP">A Full Stack Ecommerce Web Application created with a team skilled of Software Engineers.
+                        <p>A Full Stack Ecommerce Web Application created with a team skilled of Software Engineers.
                         Utilizing React Router as well as React Hooks to manage state and use side effects.
                         Deployed using Render, implemented S3 bucket using AWS for product pictures.
                         </p>    
@@ -40,7 +40,7 @@ const Projects = () => {
                 <div className="projectSection">
                     <div className="projectDiv">
                         <h2 className="h2">ATHENA</h2>
-                        <p className="projectP">A scalable, responsive solution for a tech company that handles maintenance requests across 4 campuses, with over 100 employees working on various tasks, 
+                        <p>A scalable, responsive solution for a tech company that handles maintenance requests across 4 campuses, with over 100 employees working on various tasks, 
                         in conjunction with employees making ticket request to campus tech teams. 
                         </p>
                     </div>
